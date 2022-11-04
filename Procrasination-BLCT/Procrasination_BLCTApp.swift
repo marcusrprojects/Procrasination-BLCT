@@ -11,7 +11,8 @@ import SwiftUI
 struct Procrasination_BLCTApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            AccountView()
         }
     }
 }

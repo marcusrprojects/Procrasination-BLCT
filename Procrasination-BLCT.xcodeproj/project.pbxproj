@@ -11,6 +11,20 @@
 		EA05CAB529032558003A0D6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA05CAB429032558003A0D6F /* ContentView.swift */; };
 		EA05CAB729032559003A0D6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA05CAB629032559003A0D6F /* Assets.xcassets */; };
 		EA05CABA29032559003A0D6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA05CAB929032559003A0D6F /* Preview Assets.xcassets */; };
+		EA05CAC12903290B003A0D6F /* WelcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA05CAC02903290B003A0D6F /* WelcomePage.swift */; };
+		EA05CAC429032C33003A0D6F /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = EA05CAC329032C33003A0D6F /* Algorithms */; };
+		EA05CAC729032C83003A0D6F /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA05CAC629032C83003A0D6F /* AccountView.swift */; };
+		EA05CACA29032CC5003A0D6F /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA05CAC929032CC5003A0D6F /* Profile.swift */; };
+		EA543D262915AA4600816266 /* ASViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA543D252915AA4600816266 /* ASViewController.swift */; };
+		EA543D282915AA7D00816266 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA543D272915AA7D00816266 /* WelcomeViewController.swift */; };
+		EA689918290B2A3F0025DE2D /* Account_Setup_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA689917290B2A3F0025DE2D /* Account_Setup_3.swift */; };
+		EA68991A290B47870025DE2D /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA689919290B47870025DE2D /* Home.swift */; };
+		EA68991C290B5EF70025DE2D /* Daily_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA68991B290B5EF70025DE2D /* Daily_1.swift */; };
+		EA68991E290B6F760025DE2D /* Daily_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA68991D290B6F760025DE2D /* Daily_2.swift */; };
+		EA8D6B822903B65C0054DE31 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8D6B812903B65C0054DE31 /* SwiftUIView.swift */; };
+		EA8D6B842903B6BB0054DE31 /* Account Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8D6B832903B6BB0054DE31 /* Account Setup.swift */; };
+		EA8D6B872903C2C20054DE31 /* Account_Setup_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8D6B862903C2C20054DE31 /* Account_Setup_2.swift */; };
+		EAFB49B42904554D00F3BF2B /* TextValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFB49B32904554D00F3BF2B /* TextValidator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +33,19 @@
 		EA05CAB429032558003A0D6F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EA05CAB629032559003A0D6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA05CAB929032559003A0D6F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EA05CAC02903290B003A0D6F /* WelcomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePage.swift; sourceTree = "<group>"; };
+		EA05CAC629032C83003A0D6F /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		EA05CAC929032CC5003A0D6F /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		EA543D252915AA4600816266 /* ASViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASViewController.swift; sourceTree = "<group>"; };
+		EA543D272915AA7D00816266 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		EA689917290B2A3F0025DE2D /* Account_Setup_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account_Setup_3.swift; sourceTree = "<group>"; };
+		EA689919290B47870025DE2D /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		EA68991B290B5EF70025DE2D /* Daily_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daily_1.swift; sourceTree = "<group>"; };
+		EA68991D290B6F760025DE2D /* Daily_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daily_2.swift; sourceTree = "<group>"; };
+		EA8D6B812903B65C0054DE31 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		EA8D6B832903B6BB0054DE31 /* Account Setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Account Setup.swift"; sourceTree = "<group>"; };
+		EA8D6B862903C2C20054DE31 /* Account_Setup_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account_Setup_2.swift; sourceTree = "<group>"; };
+		EAFB49B32904554D00F3BF2B /* TextValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextValidator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA05CAC429032C33003A0D6F /* Algorithms in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,10 +79,21 @@
 		EA05CAB129032558003A0D6F /* Procrasination-BLCT */ = {
 			isa = PBXGroup;
 			children = (
+				EA05CAC529032C54003A0D6F /* ObservableObjects */,
 				EA05CAB229032558003A0D6F /* Procrasination_BLCTApp.swift */,
-				EA05CAB429032558003A0D6F /* ContentView.swift */,
+				EA8D6B832903B6BB0054DE31 /* Account Setup.swift */,
+				EA8D6B862903C2C20054DE31 /* Account_Setup_2.swift */,
+				EA689917290B2A3F0025DE2D /* Account_Setup_3.swift */,
+				EA689919290B47870025DE2D /* Home.swift */,
+				EA68991B290B5EF70025DE2D /* Daily_1.swift */,
+				EA68991D290B6F760025DE2D /* Daily_2.swift */,
+				EA8D6B812903B65C0054DE31 /* SwiftUIView.swift */,
+				EA05CAC829032C98003A0D6F /* State */,
+				EA05CAC02903290B003A0D6F /* WelcomePage.swift */,
 				EA05CAB629032559003A0D6F /* Assets.xcassets */,
 				EA05CAB829032559003A0D6F /* Preview Content */,
+				EA543D252915AA4600816266 /* ASViewController.swift */,
+				EA543D272915AA7D00816266 /* WelcomeViewController.swift */,
 			);
 			path = "Procrasination-BLCT";
 			sourceTree = "<group>";
@@ -65,6 +104,24 @@
 				EA05CAB929032559003A0D6F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EA05CAC529032C54003A0D6F /* ObservableObjects */ = {
+			isa = PBXGroup;
+			children = (
+				EA05CAC629032C83003A0D6F /* AccountView.swift */,
+				EA05CAC929032CC5003A0D6F /* Profile.swift */,
+				EAFB49B32904554D00F3BF2B /* TextValidator.swift */,
+			);
+			path = ObservableObjects;
+			sourceTree = "<group>";
+		};
+		EA05CAC829032C98003A0D6F /* State */ = {
+			isa = PBXGroup;
+			children = (
+				EA05CAB429032558003A0D6F /* ContentView.swift */,
+			);
+			path = State;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +140,9 @@
 			dependencies = (
 			);
 			name = "Procrasination-BLCT";
+			packageProductDependencies = (
+				EA05CAC329032C33003A0D6F /* Algorithms */,
+			);
 			productName = "Procrasination-BLCT";
 			productReference = EA05CAAF29032558003A0D6F /* Procrasination-BLCT.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +171,9 @@
 				Base,
 			);
 			mainGroup = EA05CAA629032558003A0D6F;
+			packageReferences = (
+				EA05CAC229032C33003A0D6F /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+			);
 			productRefGroup = EA05CAB029032558003A0D6F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +200,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA05CAC729032C83003A0D6F /* AccountView.swift in Sources */,
+				EA689918290B2A3F0025DE2D /* Account_Setup_3.swift in Sources */,
+				EA05CACA29032CC5003A0D6F /* Profile.swift in Sources */,
+				EA68991C290B5EF70025DE2D /* Daily_1.swift in Sources */,
+				EA68991A290B47870025DE2D /* Home.swift in Sources */,
+				EA8D6B822903B65C0054DE31 /* SwiftUIView.swift in Sources */,
+				EA543D282915AA7D00816266 /* WelcomeViewController.swift in Sources */,
+				EA05CAC12903290B003A0D6F /* WelcomePage.swift in Sources */,
+				EA8D6B842903B6BB0054DE31 /* Account Setup.swift in Sources */,
 				EA05CAB529032558003A0D6F /* ContentView.swift in Sources */,
+				EAFB49B42904554D00F3BF2B /* TextValidator.swift in Sources */,
+				EA8D6B872903C2C20054DE31 /* Account_Setup_2.swift in Sources */,
+				EA68991E290B6F760025DE2D /* Daily_2.swift in Sources */,
+				EA543D262915AA4600816266 /* ASViewController.swift in Sources */,
 				EA05CAB329032558003A0D6F /* Procrasination_BLCTApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +415,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EA05CAC229032C33003A0D6F /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EA05CAC329032C33003A0D6F /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EA05CAC229032C33003A0D6F /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EA05CAA729032558003A0D6F /* Project object */;
 }
