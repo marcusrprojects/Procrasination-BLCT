@@ -37,9 +37,17 @@ struct Account_Setup_3: View {
                 TextField("", text: $goal5).textFieldStyle(RoundedBorderTextFieldStyle())
                     .padding(.horizontal)
                 HStack{
-                    Image(systemName: "plus.circle")
-                    Image(systemName: "minus.circle").padding()
-                }
+                    Button(action: {
+                        
+                    }) {
+                        Label("",systemImage:"plus.circle")
+                    }
+                    Button(action: {
+                        
+                    }) {
+                        Label("",systemImage:"minus.circle")
+                    }
+                }.padding()
             }
             
             Text("Weekly Planning").font(.title)
@@ -53,7 +61,7 @@ struct Account_Setup_3: View {
                 Text("Set daily 5-minute check.").padding()
             }
             
-            //next button
+            //finish button
             Button(action: {
                 next = true;
             }, label: {

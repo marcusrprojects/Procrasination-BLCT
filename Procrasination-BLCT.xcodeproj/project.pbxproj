@@ -15,6 +15,11 @@
 		EA05CAC429032C33003A0D6F /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = EA05CAC329032C33003A0D6F /* Algorithms */; };
 		EA05CAC729032C83003A0D6F /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA05CAC629032C83003A0D6F /* AccountView.swift */; };
 		EA05CACA29032CC5003A0D6F /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA05CAC929032CC5003A0D6F /* Profile.swift */; };
+		EA202DC5291B46DB001E8C67 /* Weekly.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA202DC4291B46DB001E8C67 /* Weekly.swift */; };
+		EA202DC7291B497D001E8C67 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA202DC6291B497D001E8C67 /* Test.swift */; };
+		EA202DC9291B4ECD001E8C67 /* Weekly_Perfect.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA202DC8291B4ECD001E8C67 /* Weekly_Perfect.swift */; };
+		EA202DCE291B54F3001E8C67 /* Weekly_Keep_Going.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA202DCD291B54F3001E8C67 /* Weekly_Keep_Going.swift */; };
+		EA202DD0291B57C1001E8C67 /* Weekly_Rewards.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA202DCF291B57C1001E8C67 /* Weekly_Rewards.swift */; };
 		EA543D262915AA4600816266 /* ASViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA543D252915AA4600816266 /* ASViewController.swift */; };
 		EA543D282915AA7D00816266 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA543D272915AA7D00816266 /* WelcomeViewController.swift */; };
 		EA689918290B2A3F0025DE2D /* Account_Setup_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA689917290B2A3F0025DE2D /* Account_Setup_3.swift */; };
@@ -36,6 +41,11 @@
 		EA05CAC02903290B003A0D6F /* WelcomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePage.swift; sourceTree = "<group>"; };
 		EA05CAC629032C83003A0D6F /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		EA05CAC929032CC5003A0D6F /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		EA202DC4291B46DB001E8C67 /* Weekly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weekly.swift; sourceTree = "<group>"; };
+		EA202DC6291B497D001E8C67 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		EA202DC8291B4ECD001E8C67 /* Weekly_Perfect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weekly_Perfect.swift; sourceTree = "<group>"; };
+		EA202DCD291B54F3001E8C67 /* Weekly_Keep_Going.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weekly_Keep_Going.swift; sourceTree = "<group>"; };
+		EA202DCF291B57C1001E8C67 /* Weekly_Rewards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weekly_Rewards.swift; sourceTree = "<group>"; };
 		EA543D252915AA4600816266 /* ASViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASViewController.swift; sourceTree = "<group>"; };
 		EA543D272915AA7D00816266 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		EA689917290B2A3F0025DE2D /* Account_Setup_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account_Setup_3.swift; sourceTree = "<group>"; };
@@ -81,12 +91,11 @@
 			children = (
 				EA05CAC529032C54003A0D6F /* ObservableObjects */,
 				EA05CAB229032558003A0D6F /* Procrasination_BLCTApp.swift */,
-				EA8D6B832903B6BB0054DE31 /* Account Setup.swift */,
-				EA8D6B862903C2C20054DE31 /* Account_Setup_2.swift */,
-				EA689917290B2A3F0025DE2D /* Account_Setup_3.swift */,
+				EA202DCC291B4F01001E8C67 /* AS */,
 				EA689919290B47870025DE2D /* Home.swift */,
-				EA68991B290B5EF70025DE2D /* Daily_1.swift */,
-				EA68991D290B6F760025DE2D /* Daily_2.swift */,
+				EA202DCA291B4ED5001E8C67 /* Daily */,
+				EA202DCB291B4EDF001E8C67 /* Weekly */,
+				EA202DC6291B497D001E8C67 /* Test.swift */,
 				EA8D6B812903B65C0054DE31 /* SwiftUIView.swift */,
 				EA05CAC829032C98003A0D6F /* State */,
 				EA05CAC02903290B003A0D6F /* WelcomePage.swift */,
@@ -122,6 +131,36 @@
 				EA05CAB429032558003A0D6F /* ContentView.swift */,
 			);
 			path = State;
+			sourceTree = "<group>";
+		};
+		EA202DCA291B4ED5001E8C67 /* Daily */ = {
+			isa = PBXGroup;
+			children = (
+				EA68991B290B5EF70025DE2D /* Daily_1.swift */,
+				EA68991D290B6F760025DE2D /* Daily_2.swift */,
+			);
+			path = Daily;
+			sourceTree = "<group>";
+		};
+		EA202DCB291B4EDF001E8C67 /* Weekly */ = {
+			isa = PBXGroup;
+			children = (
+				EA202DC4291B46DB001E8C67 /* Weekly.swift */,
+				EA202DC8291B4ECD001E8C67 /* Weekly_Perfect.swift */,
+				EA202DCD291B54F3001E8C67 /* Weekly_Keep_Going.swift */,
+				EA202DCF291B57C1001E8C67 /* Weekly_Rewards.swift */,
+			);
+			path = Weekly;
+			sourceTree = "<group>";
+		};
+		EA202DCC291B4F01001E8C67 /* AS */ = {
+			isa = PBXGroup;
+			children = (
+				EA8D6B832903B6BB0054DE31 /* Account Setup.swift */,
+				EA8D6B862903C2C20054DE31 /* Account_Setup_2.swift */,
+				EA689917290B2A3F0025DE2D /* Account_Setup_3.swift */,
+			);
+			path = AS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,10 +243,15 @@
 				EA689918290B2A3F0025DE2D /* Account_Setup_3.swift in Sources */,
 				EA05CACA29032CC5003A0D6F /* Profile.swift in Sources */,
 				EA68991C290B5EF70025DE2D /* Daily_1.swift in Sources */,
+				EA202DC7291B497D001E8C67 /* Test.swift in Sources */,
 				EA68991A290B47870025DE2D /* Home.swift in Sources */,
 				EA8D6B822903B65C0054DE31 /* SwiftUIView.swift in Sources */,
 				EA543D282915AA7D00816266 /* WelcomeViewController.swift in Sources */,
+				EA202DC9291B4ECD001E8C67 /* Weekly_Perfect.swift in Sources */,
+				EA202DCE291B54F3001E8C67 /* Weekly_Keep_Going.swift in Sources */,
 				EA05CAC12903290B003A0D6F /* WelcomePage.swift in Sources */,
+				EA202DD0291B57C1001E8C67 /* Weekly_Rewards.swift in Sources */,
+				EA202DC5291B46DB001E8C67 /* Weekly.swift in Sources */,
 				EA8D6B842903B6BB0054DE31 /* Account Setup.swift in Sources */,
 				EA05CAB529032558003A0D6F /* ContentView.swift in Sources */,
 				EAFB49B42904554D00F3BF2B /* TextValidator.swift in Sources */,
