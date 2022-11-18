@@ -15,6 +15,9 @@
 		EA05CAC429032C33003A0D6F /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = EA05CAC329032C33003A0D6F /* Algorithms */; };
 		EA05CAC729032C83003A0D6F /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA05CAC629032C83003A0D6F /* AccountView.swift */; };
 		EA05CACA29032CC5003A0D6F /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA05CAC929032CC5003A0D6F /* Profile.swift */; };
+		EA18A5E7292605C600FB5849 /* Reflection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA18A5E6292605C600FB5849 /* Reflection.swift */; };
+		EA18A5E929271CB900FB5849 /* Analysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA18A5E829271CB900FB5849 /* Analysis.swift */; };
+		EA18A5EC29271FE600FB5849 /* Video_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA18A5EB29271FE600FB5849 /* Video_1.swift */; };
 		EA202DC5291B46DB001E8C67 /* Weekly.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA202DC4291B46DB001E8C67 /* Weekly.swift */; };
 		EA202DC7291B497D001E8C67 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA202DC6291B497D001E8C67 /* Test.swift */; };
 		EA202DC9291B4ECD001E8C67 /* Weekly_Perfect.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA202DC8291B4ECD001E8C67 /* Weekly_Perfect.swift */; };
@@ -41,6 +44,9 @@
 		EA05CAC02903290B003A0D6F /* WelcomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePage.swift; sourceTree = "<group>"; };
 		EA05CAC629032C83003A0D6F /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		EA05CAC929032CC5003A0D6F /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		EA18A5E6292605C600FB5849 /* Reflection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reflection.swift; sourceTree = "<group>"; };
+		EA18A5E829271CB900FB5849 /* Analysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analysis.swift; sourceTree = "<group>"; };
+		EA18A5EB29271FE600FB5849 /* Video_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video_1.swift; sourceTree = "<group>"; };
 		EA202DC4291B46DB001E8C67 /* Weekly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weekly.swift; sourceTree = "<group>"; };
 		EA202DC6291B497D001E8C67 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		EA202DC8291B4ECD001E8C67 /* Weekly_Perfect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weekly_Perfect.swift; sourceTree = "<group>"; };
@@ -95,8 +101,10 @@
 				EA689919290B47870025DE2D /* Home.swift */,
 				EA202DCA291B4ED5001E8C67 /* Daily */,
 				EA202DCB291B4EDF001E8C67 /* Weekly */,
+				EA18A5E52926058A00FB5849 /* Reflection */,
 				EA202DC6291B497D001E8C67 /* Test.swift */,
 				EA8D6B812903B65C0054DE31 /* SwiftUIView.swift */,
+				EA18A5EA29271FB100FB5849 /* Videos */,
 				EA05CAC829032C98003A0D6F /* State */,
 				EA05CAC02903290B003A0D6F /* WelcomePage.swift */,
 				EA05CAB629032559003A0D6F /* Assets.xcassets */,
@@ -131,6 +139,23 @@
 				EA05CAB429032558003A0D6F /* ContentView.swift */,
 			);
 			path = State;
+			sourceTree = "<group>";
+		};
+		EA18A5E52926058A00FB5849 /* Reflection */ = {
+			isa = PBXGroup;
+			children = (
+				EA18A5E6292605C600FB5849 /* Reflection.swift */,
+				EA18A5E829271CB900FB5849 /* Analysis.swift */,
+			);
+			path = Reflection;
+			sourceTree = "<group>";
+		};
+		EA18A5EA29271FB100FB5849 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				EA18A5EB29271FE600FB5849 /* Video_1.swift */,
+			);
+			path = Videos;
 			sourceTree = "<group>";
 		};
 		EA202DCA291B4ED5001E8C67 /* Daily */ = {
@@ -254,8 +279,11 @@
 				EA202DC5291B46DB001E8C67 /* Weekly.swift in Sources */,
 				EA8D6B842903B6BB0054DE31 /* Account Setup.swift in Sources */,
 				EA05CAB529032558003A0D6F /* ContentView.swift in Sources */,
+				EA18A5E929271CB900FB5849 /* Analysis.swift in Sources */,
 				EAFB49B42904554D00F3BF2B /* TextValidator.swift in Sources */,
 				EA8D6B872903C2C20054DE31 /* Account_Setup_2.swift in Sources */,
+				EA18A5EC29271FE600FB5849 /* Video_1.swift in Sources */,
+				EA18A5E7292605C600FB5849 /* Reflection.swift in Sources */,
 				EA68991E290B6F760025DE2D /* Daily_2.swift in Sources */,
 				EA543D262915AA4600816266 /* ASViewController.swift in Sources */,
 				EA05CAB329032558003A0D6F /* Procrasination_BLCTApp.swift in Sources */,

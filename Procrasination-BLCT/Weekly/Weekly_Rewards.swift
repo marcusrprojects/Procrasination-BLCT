@@ -41,7 +41,7 @@ struct Weekly_Rewards: View {
             }).padding()
             
             if (next == true) {
-//                Home()
+                Reflection()
             }
         }
     }
