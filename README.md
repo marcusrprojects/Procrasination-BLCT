@@ -2,7 +2,7 @@
 
 **Project Overview**
 
-*Procrastination-BLCT* was an academic project that attempted to build a procrastination app from scratch for the Behavioral Learning and Change Through Technology (BLCT) program at Bowdoin College. This collaborative endeavor was undertaken to address growing student procrastination and provide a solution integrated with empirical procrastination research.
+*Procrastination-BLCT* was an academic project that attempted to build a procrastination app from scratch for the Baldwin Center for Learning and Teaching (BLCT) center at Bowdoin College. This collaborative endeavor was undertaken to address growing student procrastination and provide a solution integrated with empirical procrastination research.
 
 Screens included in this iteration: Account Setup, Home, Daily, Weekly, and Reflection.
 
