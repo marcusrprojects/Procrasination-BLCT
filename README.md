@@ -3,33 +3,47 @@
 ![Platform](https://img.shields.io/badge/Platform-iOS-blue)
 ![Language](https://img.shields.io/badge/Language-Swift_5-orange)
 ![UI](https://img.shields.io/badge/UI-SwiftUI-purple)
+**An iOS SwiftUI prototype designed to help students understand and manage procrastination, developed collaboratively for the Baldwin Center for Learning and Teaching (BLCT) at Bowdoin College.**
 
-**Project Overview**
+## Project Overview
 
-*Procrastination-BLCT* was an academic project that attempted to build a procrastination app from scratch for the Baldwin Center for Learning and Teaching (BLCT) center at Bowdoin College. This collaborative endeavor was undertaken to address growing student procrastination and provide a solution integrated with empirical procrastination research.
+*Procrastination-BLCT* emerged from an academic collaboration aimed at addressing student procrastination by providing a tool grounded in empirical research. Developed during the Fall 2022 semester, this project involved a team with expertise in development, content specialization, academic advising, project management, and video production.
 
-Screens included in this iteration: Account Setup, Home, Daily Check-In, Weekly Check-In, and Reflection.
+The goal was to create an accessible, user-friendly iOS application leveraging Swift and SwiftUI to guide students through regular check-ins, reflections, and empirically-supported anti-procrastination techniques.
 
-## Project Highlights
+This repository contains the source code for the working prototype as of December 2022.
 
-- **Interdisciplinary Collaboration**: The *Procrastination-BLCT* project was a collaborative effort between a lead developer, content specialist, academic advisor, project manager(and an additional content specialist), and video producer & scriptwriter.
+## Key Features (Prototype Stage)
 
-- **Inclusive Design**: To create an inclusive and accessible user experience, the project leveraged comprehensive wireframes, Swift, and SwiftUI. This focus on user accessibility aimed to make the app usable and effective for a wide range of users.
+*   **Account Setup:** Onboarding process to personalize the experience (motto goals, reminder songs, semester goals).
+*   **Home Screen:** Displays motto goal and picture, central navigation point.
+*   **Daily Check-in:** Quick mood/success tracking related to procrastination and applied "life hacks."
+*   **Weekly Check-in:** Structured review of progress towards weekly goals.
+*   **Reflection & Analysis:** Prompts users to identify reasons for procrastination based on their weekly performance.
+*   **Content Integration:** Placeholders for video content and links designed to provide targeted advice.
 
-- **Empirical Foundations**: The project delved deep into empirical research on procrastination, drawing from the expertise of the content specialist and project manager. This enriched the app's content and educational materials, ensuring it was rooted in psychological principles.
+## Technology Stack
 
-- **User-Friendly Interface**: The app provides an intuitive and user-friendly interface, such that its users may quickly adapt to it and login to its regular check-in. Streamlined navigation and clear instructions ensure a smooth and hassle-free experience.
+*   **Language:** Swift 5
+*   **UI Framework:** SwiftUI (with some UIKit elements)
+*   **Platform:** iOS (Target: 16.0+)
+*   **IDE:** Xcode
+*   **Dependencies:** `swift-algorithms` (via Swift Package Manager)
 
-## Key Features
+## Project Status
 
-- **Procrastination Content**: Covering topics from self-motivation to emotional regulation, this app offers effective techniques and insights to combat procrastination.
+This project is an **archived academic prototype**. It represents the state of development at the end of the Fall 2022 semester.
 
-- **Procrastination Insights**: Users may gain practical insights into their procrastination patterns through data analytics and behavioral tracking, aiding them in understanding and overcoming procrastination tendencies.
+## Wireframes / Design Process
 
-## Project Progress
+We first developed flow maps, then wireframes, before implementation:
 
-This project, a semester-long endeavor, progressed from ideation to the development of flow maps, wireframes, and an initial code implementation. As of December 2022, it stands as a working prototype of the application, showcasing its potential to address the challenge of procrastination.
+![Home,_Check-In_Process_Pre-Video](<wireframe/Home,_Check-In_Process_Pre-Video.png>)
+![Reflection,_Analysis,_Video,_Future_Task_Planning](<wireframe/Reflection,_Analysis,_Video,_Future_Task_Planning.png>)
+![Welcome,_Settings,_and_Account_Setup](<wireframe/Welcome,_Settings,_and_Account_Setup.png>)
 
-## Future Endeavors
+## Getting Started
 
-The *Procrastination-BLCT* project, although currently a functional prototype, holds the potential to evolve into a comprehensive and impactful procrastination management tool. This project is currently undergoing development and user testing in order to continue the development of the application as outlined in 2022.
+1.  Clone the repository: `git clone https://github.com/marcusrprojects/Procrastination-BLCT.git`
+2.  Open `Procrasination-BLCT.xcodeproj` in Xcode (version compatible with Swift 5 and iOS 16 SDK recommended).
+3.  Build and run the project on a simulator or a physical device.
