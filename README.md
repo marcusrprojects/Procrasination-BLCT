@@ -3,6 +3,7 @@
 ![Platform](https://img.shields.io/badge/Platform-iOS-blue)
 ![Language](https://img.shields.io/badge/Language-Swift_5-orange)
 ![UI](https://img.shields.io/badge/UI-SwiftUI-purple)
+
 **An iOS SwiftUI prototype designed to help students understand and manage procrastination, developed collaboratively for the Baldwin Center for Learning and Teaching (BLCT) at Bowdoin College.**
 
 ## Project Overview
@@ -45,5 +46,5 @@ We first developed flow maps, then wireframes, before implementation:
 ## Getting Started
 
 1.  Clone the repository: `git clone https://github.com/marcusrprojects/Procrastination-BLCT.git`
-2.  Open `Procrasination-BLCT.xcodeproj` in Xcode (version compatible with Swift 5 and iOS 16 SDK recommended).
+2.  Open `Procrasination-BLCT.xcodeproj` in Xcode (version compatible with Swift 5 and iOS 16.0 SDK recommended).
 3.  Build and run the project on a simulator or a physical device.
