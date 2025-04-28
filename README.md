@@ -1,5 +1,9 @@
 # Procrastination-BLCT
 
+![Platform](https://img.shields.io/badge/Platform-iOS-blue)
+![Language](https://img.shields.io/badge/Language-Swift_5-orange)
+![UI](https://img.shields.io/badge/UI-SwiftUI-purple)
+
 **Project Overview**
 
 *Procrastination-BLCT* was an academic project that attempted to build a procrastination app from scratch for the Baldwin Center for Learning and Teaching (BLCT) center at Bowdoin College. This collaborative endeavor was undertaken to address growing student procrastination and provide a solution integrated with empirical procrastination research.
